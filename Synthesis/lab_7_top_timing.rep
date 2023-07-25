@@ -1,0 +1,187 @@
+//  Precision RTL Synthesis 64-bit 2018.1.0.19 (Production Release) Fri Aug 10 05:55:53 PDT 2018
+//  
+//  Copyright (c) Mentor Graphics Corporation, 1996-2018, All Rights Reserved.
+//             Portions copyright 1991-2008 Compuware Corporation
+//                       UNPUBLISHED, LICENSED SOFTWARE.
+//            CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+//          PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+//  
+//  Running on Windows Server 2016 glass@MSTS-ELEC  10.0.17763 x64
+//  
+//  Start time Thu Jul 06 23:30:27 2023
+
+-- Device: Xilinx - ARTIX-7 : 7A15TCSG324 : 1
+-- CTE report summary..
+-- POST-SYNTHESIS TIMING REPORTS ARE ESTIMATES AND SHOULD NOT BE RELIED ON TO MAKE QoR DECISIONS. For accurate timing information, please run place-and-route (P&R) and review P&R generated timing reports.
+
+================================================================================================
+                   Clock Frequency Report
+
+	Domain                  Clock Name                            Min Period (Freq)             Required Period (Freq)
+	------                  ----------                            -----------------             ----------------------
+	clk_PS                  clk                                   18.015 (55.509 MHz)           100.000 (10.000 MHz)
+
+
+================================================================================================
+Setup Timing Analysis of clk
+
+Setup Slack Path Summary
+
+                Data                                                                     Data
+       Setup    Path   Source  Dest.                                                     End 
+Index  Slack   Delay   Clock   Clock         Data Start Pin             Data End Pin     Edge
+-----  ------  ------  ------  -----  -----------------------------  ------------------  ----
+  1    81.985  17.975  clk     clk    i_key_samp/reg_data_out(7)/C   reg_data_out(34)/D  Rise
+  2    81.985  17.975  clk     clk    i_key_samp/reg_data_out(23)/C  reg_data_out(34)/D  Rise
+  3    81.985  17.975  clk     clk    i_key_samp/reg_data_out(20)/C  reg_data_out(34)/D  Rise
+  4    81.985  17.975  clk     clk    i_key_samp/reg_data_out(30)/C  reg_data_out(34)/D  Rise
+  5    81.985  17.975  clk     clk    i_key_samp/reg_data_out(27)/C  reg_data_out(34)/D  Rise
+  6    81.985  17.975  clk     clk    i_key_samp/reg_data_out(4)/C   reg_data_out(34)/D  Rise
+  7    81.985  17.975  clk     clk    i_key_samp/reg_data_out(62)/C  reg_data_out(34)/D  Rise
+  8    81.985  17.975  clk     clk    i_key_samp/reg_data_out(33)/C  reg_data_out(34)/D  Rise
+  9    81.985  17.975  clk     clk    i_key_samp/reg_data_out(46)/C  reg_data_out(34)/D  Rise
+ 10    81.985  17.975  clk     clk    i_key_samp/reg_data_out(17)/C  reg_data_out(34)/D  Rise
+
+                  CTE Path Report
+
+
+Critical path #1, (path slack = 81.985):
+
+SOURCE CLOCK: name: clk period: 100.000000
+     Times are relative to the 1st rising edge
+  DEST CLOCK: name: clk period: 100.000000
+     Times are relative to the 2nd rising edge
+
+NAME                            GATE      DELAY    ARRIVAL DIR  FANOUT
+i_key_samp/reg_data_out(7)/C FDRE                  0.000   up
+i_key_samp/reg_data_out(7)/Q FDRE        0.496     0.496   up
+i_key_samp/key_samp(7)       (net)       0.562                  15
+i_data_samp/ix63157z1335/I1  LUT2                  1.058   up
+i_data_samp/ix63157z1335/O   LUT2        0.124     1.182   up
+i_data_samp/nx63157z16       (net)       0.354                   4
+i_data_samp/ix37232z39806/I3 LUT6                  1.536   up
+i_data_samp/ix37232z39806/O  LUT6        0.124     1.660   up
+i_data_samp/nx37232z11       (net)       0.506                  12
+i_data_samp/ix36228z1474/I2  LUT3                  2.166   up
+i_data_samp/ix36228z1474/O   LUT3        0.124     2.290   up
+i_data_samp/nx36228z11       (net)       0.354                   4
+i_data_samp/ix34235z26364/I4 LUT6                  2.644   up
+i_data_samp/ix34235z26364/O  LUT6        0.124     2.768   up
+i_data_samp/nx34235z6        (net)       0.502                  11
+i_data_samp/ix15291z1484/I2  LUT3                  3.270   up
+i_data_samp/ix15291z1484/O   LUT3        0.124     3.394   up
+i_data_samp/nx15291z22       (net)       0.354                   4
+i_data_samp/ix15291z8876/I4  LUT6                  3.748   up
+i_data_samp/ix15291z8876/O   LUT6        0.124     3.872   up
+i_data_samp/nx15291z16       (net)       0.502                  11
+i_data_samp/ix24265z28367/I3 LUT4                  4.374   up
+i_data_samp/ix24265z28367/O  LUT4        0.124     4.498   up
+i_data_samp/nx24265z24       (net)       0.354                   4
+i_data_samp/ix24265z8409/I5  LUT6                  4.852   up
+i_data_samp/ix24265z8409/O   LUT6        0.124     4.976   up
+i_data_samp/nx24265z16       (net)       0.469                  10
+i_data_samp/ix24265z39833/I3 LUT4                  5.445   up
+i_data_samp/ix24265z39833/O  LUT4        0.124     5.569   up
+i_data_samp/nx24265z15       (net)       0.354                   4
+i_data_samp/ix13294z43901/I2 LUT6                  5.923   up
+i_data_samp/ix13294z43901/O  LUT6        0.124     6.047   up
+i_data_samp/nx13294z1        (net)       0.469                  10
+i_data_samp/ix337z28350/I4   LUT5                  6.516   up
+i_data_samp/ix337z28350/O    LUT5        0.124     6.640   up
+i_data_samp/nx337z7          (net)       0.354                   4
+i_data_samp/ix337z59898/I3   LUT6                  6.994   up
+i_data_samp/ix337z59898/O    LUT6        0.124     7.118   up
+i_data_samp/nx337z1          (net)       0.446                   9
+i_data_samp/ix32966z28353/I4 LUT5                  7.564   up
+i_data_samp/ix32966z28353/O  LUT5        0.124     7.688   up
+i_data_samp/nx32966z10       (net)       0.354                   4
+i_data_samp/ix37946z19163/I5 LUT6                  8.042   up
+i_data_samp/ix37946z19163/O  LUT6        0.124     8.166   up
+i_data_samp/nx37946z2        (net)       0.469                  10
+i_data_samp/ix12903z28502/I5 LUT6                  8.635   up
+i_data_samp/ix12903z28502/O  LUT6        0.124     8.759   up
+i_data_samp/nx12903z161      (net)       0.354                   4
+i_data_samp/ix12903z39556/I4 LUT6                  9.113   up
+i_data_samp/ix12903z39556/O  LUT6        0.124     9.237   up
+i_data_samp/nx12903z155      (net)       0.446                   9
+i_data_samp/ix12903z39970/I5 LUT6                  9.683   up
+i_data_samp/ix12903z39970/O  LUT6        0.124     9.807   up
+i_data_samp/nx12903z154      (net)       0.354                   4
+i_data_samp/ix12903z33035/I5 LUT6                 10.161   up
+i_data_samp/ix12903z33035/O  LUT6        0.124    10.285   up
+i_data_samp/nx12903z328      (net)       0.446                   9
+i_key_samp/ix49528z39819/I5  LUT6                 10.731   up
+i_key_samp/ix49528z39819/O   LUT6        0.124    10.855   up
+i_key_samp/nx49528z1         (net)       0.354                   4
+i_data_samp/ix56500z27230/I1 LUT6                 11.209   up
+i_data_samp/ix56500z27230/O  LUT6        0.124    11.333   up
+i_data_samp/nx56500z1        (net)       0.401                   7
+i_key_samp/ix62485z39819/I5  LUT6                 11.734   up
+i_key_samp/ix62485z39819/O   LUT6        0.124    11.858   up
+i_key_samp/nx62485z1         (net)       0.354                   4
+i_data_samp/ix44815z50847/I5 LUT6                 12.212   up
+i_data_samp/ix44815z50847/O  LUT6        0.124    12.336   up
+i_data_samp/nx44815z15       (net)       0.401                   7
+i_key_samp/ix5929z39819/I5   LUT6                 12.737   up
+i_key_samp/ix5929z39819/O    LUT6        0.124    12.861   up
+i_key_samp/nx5929z1          (net)       0.354                   4
+i_data_samp/ix12903z20399/I5 LUT6                 13.215   up
+i_data_samp/ix12903z20399/O  LUT6        0.124    13.339   up
+i_data_samp/nx12903z469      (net)       0.378                   5
+i_data_samp/ix42825z39833/I5 LUT6                 13.717   up
+i_data_samp/ix42825z39833/O  LUT6        0.124    13.841   up
+i_data_samp/nx42825z17       (net)       0.354                   4
+i_data_samp/ix43824z15348/I1 LUT6                 14.195   up
+i_data_samp/ix43824z15348/O  LUT6        0.124    14.319   up
+i_data_samp/nx43824z17       (net)       0.378                   5
+i_key_samp/ix23874z39819/I5  LUT6                 14.697   up
+i_key_samp/ix23874z39819/O   LUT6        0.124    14.821   up
+i_key_samp/nx23874z1         (net)       0.354                   4
+i_data_samp/ix25872z41477/I5 LUT6                 15.175   up
+i_data_samp/ix25872z41477/O  LUT6        0.124    15.299   up
+i_data_samp/nx25872z1        (net)       0.341                   3
+i_key_samp/ix28864z28344/I5  LUT6                 15.640   up
+i_key_samp/ix28864z28344/O   LUT6        0.124    15.764   up
+i_key_samp/nx28864z1         (net)       0.354                   4
+i_data_samp/ix45810z39827/I2 LUT6                 16.118   up
+i_data_samp/ix45810z39827/O  LUT6        0.124    16.242   up
+i_data_samp/nx45810z8        (net)       0.341                   3
+i_data_samp/ix45814z28347/I5 LUT6                 16.583   up
+i_data_samp/ix45814z28347/O  LUT6        0.124    16.707   up
+i_data_samp/nx45814z4        (net)       0.354                   4
+i_data_samp/ix45817z52308/I1 LUT6                 17.061   up
+i_data_samp/ix45817z52308/O  LUT6        0.124    17.185   up
+i_data_samp/nx45817z2        (net)       0.333                   1
+i_data_samp/ix45817z28344/I5 LUT6                 17.518   up
+i_data_samp/ix45817z28344/O  LUT6        0.124    17.642   up
+i_data_samp/nx45817z1        (net)       0.333                   1
+reg_data_out(34)/D           FDRE                 17.975   up
+
+		Initial edge separation:    100.000
+		Source clock delay:      -    2.148
+		Dest clock delay:        +    2.148
+		                        -----------
+		Edge separation:            100.000
+		Setup constraint:        -    0.040
+		                        -----------
+		Data required time:          99.960
+		Data arrival time:       -   17.975   ( 25.52% cell delay, 74.48% net delay )
+		                        -----------
+		Slack:                       81.985
+
+
+
+================================================================================================
+                   Input Delay Report
+
+	Input                  Clock Name                            Slack (ns)
+	-----                  ----------                            ----------
+	No input delay constraints.
+
+
+================================================================================================
+                   Output Delay Report
+
+	Output                 Clock Name                            Slack (ns)
+	------                 ----------                            ----------
+	No output delay constraints.

@@ -1,0 +1,1 @@
+setup_design -manufacturer Xilinx -family ARTIX-7 -part 7A15TCSG324 -speed -1

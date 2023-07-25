@@ -1,0 +1,242 @@
+couldn't open "transcript": permission denied
+# Reading pref.tcl
+cd {C:/Users/Mendel Wells/Desktop/code}
+do do_lab7.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 19:56:33 on Jun 29,2023
+# vlog -reportprogress 300 E.v 
+# -- Compiling module E
+# 
+# Top level modules:
+# 	E
+# End time: 19:56:34 on Jun 29,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 19:56:34 on Jun 29,2023
+# vlog -reportprogress 300 f_function.v 
+# -- Compiling module f_function
+# 
+# Top level modules:
+# 	f_function
+# End time: 19:56:34 on Jun 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 19:56:34 on Jun 29,2023
+# vlog -reportprogress 300 input_register.v 
+# -- Compiling module input_register
+# 
+# Top level modules:
+# 	input_register
+# End time: 19:56:34 on Jun 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 19:56:34 on Jun 29,2023
+# vlog -reportprogress 300 IP.v 
+# -- Compiling module IP
+# 
+# Top level modules:
+# 	IP
+# End time: 19:56:34 on Jun 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 19:56:34 on Jun 29,2023
+# vlog -reportprogress 300 i_IP.v 
+# -- Compiling module i_IP
+# 
+# Top level modules:
+# 	i_IP
+# End time: 19:56:34 on Jun 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 19:56:34 on Jun 29,2023
+# vlog -reportprogress 300 output_register.v 
+# -- Compiling module output_register
+# 
+# Top level modules:
+# 	output_register
+# End time: 19:56:34 on Jun 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 19:56:35 on Jun 29,2023
+# vlog -reportprogress 300 P.v 
+# -- Compiling module P
+# 
+# Top level modules:
+# 	P
+# End time: 19:56:35 on Jun 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 19:56:35 on Jun 29,2023
+# vlog -reportprogress 300 PC1.v 
+# -- Compiling module PC1
+# 
+# Top level modules:
+# 	PC1
+# End time: 19:56:35 on Jun 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 19:56:35 on Jun 29,2023
+# vlog -reportprogress 300 PC2.v 
+# -- Compiling module PC2
+# 
+# Top level modules:
+# 	PC2
+# End time: 19:56:35 on Jun 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 19:56:35 on Jun 29,2023
+# vlog -reportprogress 300 s1.v 
+# -- Compiling module s1
+# 
+# Top level modules:
+# 	s1
+# End time: 19:56:35 on Jun 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 19:56:36 on Jun 29,2023
+# vlog -reportprogress 300 s2.v 
+# -- Compiling module s2
+# 
+# Top level modules:
+# 	s2
+# End time: 19:56:36 on Jun 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 19:56:36 on Jun 29,2023
+# vlog -reportprogress 300 s3.v 
+# -- Compiling module s3
+# 
+# Top level modules:
+# 	s3
+# End time: 19:56:36 on Jun 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 19:56:36 on Jun 29,2023
+# vlog -reportprogress 300 s4.v 
+# -- Compiling module s4
+# 
+# Top level modules:
+# 	s4
+# End time: 19:56:36 on Jun 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 19:56:36 on Jun 29,2023
+# vlog -reportprogress 300 s5.v 
+# -- Compiling module s5
+# 
+# Top level modules:
+# 	s5
+# End time: 19:56:36 on Jun 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 19:56:36 on Jun 29,2023
+# vlog -reportprogress 300 s6.v 
+# -- Compiling module s6
+# 
+# Top level modules:
+# 	s6
+# End time: 19:56:37 on Jun 29,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 19:56:37 on Jun 29,2023
+# vlog -reportprogress 300 s7.v 
+# -- Compiling module s7
+# 
+# Top level modules:
+# 	s7
+# End time: 19:56:37 on Jun 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 19:56:37 on Jun 29,2023
+# vlog -reportprogress 300 s8.v 
+# -- Compiling module s8
+# 
+# Top level modules:
+# 	s8
+# End time: 19:56:37 on Jun 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 19:56:37 on Jun 29,2023
+# vlog -reportprogress 300 Top_level_Feistel_network.v 
+# -- Compiling module feistel_network
+# 
+# Top level modules:
+# 	feistel_network
+# End time: 19:56:37 on Jun 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 19:56:38 on Jun 29,2023
+# vlog -reportprogress 300 key_schedule.v 
+# -- Compiling module key_schedule
+# 
+# Top level modules:
+# 	key_schedule
+# End time: 19:56:38 on Jun 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 19:56:38 on Jun 29,2023
+# vlog -reportprogress 300 lab_7_top.v 
+# -- Compiling module lab_7_top
+# 
+# Top level modules:
+# 	lab_7_top
+# End time: 19:56:38 on Jun 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 19:56:38 on Jun 29,2023
+# vlog -reportprogress 300 tb_7_top.v 
+# -- Compiling module tb_7_top
+# 
+# Top level modules:
+# 	tb_7_top
+# End time: 19:56:38 on Jun 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb_7_top 
+# Start time: 19:56:38 on Jun 29,2023
+# Loading work.tb_7_top
+# Loading work.lab_7_top
+# Loading work.input_register
+# Loading work.key_schedule
+# Loading work.PC1
+# Loading work.PC2
+# Loading work.feistel_network
+# Loading work.IP
+# Loading work.f_function
+# Loading work.E
+# Loading work.s1
+# Loading work.s2
+# Loading work.s3
+# Loading work.s4
+# Loading work.s5
+# Loading work.s6
+# Loading work.s7
+# Loading work.s8
+# Loading work.P
+# Loading work.i_IP
+# Loading work.output_register
+run 10000 ns
+# time =        0 | K = xxxxxxxxxxxxxxxx | P = xxxxxxxxxxxxxxxx | C = xxxxxxxxxxxxxxxx | result = xxxxxxxxxxxxxxxx |  RST
+# time =       50 | K = 0000000000000000 | P = 0000000000000000 | C = 0000000000000000 | result = 0000000000000000 |  RST
+# time =      140 | K = 0000000000000000 | P = 0000000000000000 | C = 0000000000000000 | result = 0000000000000000 | WAIT
+# time =      150 | K = 0000000000000000 | P = 0000000000000000 | C = 0000000000000000 | result = 8ca64de9c1b123a7 | WAIT
+# time =      550 | K = 8000000000000000 | P = 0000000000000000 | C = 95a8d72813daa94d | result = 95a8d72813daa94d | PASS
+# time =      650 | K = 4000000000000000 | P = 0000000000000000 | C = 0eec1487dd8c26d5 | result = 0eec1487dd8c26d5 | PASS
+# time =      750 | K = 2000000000000000 | P = 0000000000000000 | C = 7ad16ffb79c45926 | result = 7ad16ffb79c45926 | PASS
+# time =      850 | K = 1000000000000000 | P = 0000000000000000 | C = d3746294ca6a6cf3 | result = d3746294ca6a6cf3 | PASS
+# time =      950 | K = 1000000000000000 | P = 0000000000000000 | C = d3746294ca6a6cf3 | result = d3746294ca6a6cf3 | WAIT
+# time =     1050 | K = 0800000000000000 | P = 0000000000000000 | C = 809f5f873c1fd761 | result = 809f5f873c1fd761 | PASS
+# time =     1150 | K = 0800000000000000 | P = 0000000000000000 | C = 809f5f873c1fd761 | result = 809f5f873c1fd761 | WAIT
+# time =     1250 | K = 0400000000000000 | P = 0000000000000000 | C = c02faffec989d1fc | result = c02faffec989d1fc | PASS
+# time =     1350 | K = 0200000000000000 | P = 0000000000000000 | C = 4615aa1d33e72f10 | result = 4615aa1d33e72f10 | PASS
+# time =     1450 | K = 0100000000000000 | P = 0000000000000000 | C = 8ca64de9c1b123a7 | result = 8ca64de9c1b123a7 | PASS
+# time =     1550 | K = 0080000000000000 | P = 0000000000000000 | C = 2055123350c00858 | result = 2055123350c00858 | PASS
+# time =     1650 | K = 0040000000000000 | P = 0000000000000000 | C = df3b99d6577397c8 | result = df3b99d6577397c8 | PASS
+# time =     1750 | K = 0020000000000000 | P = 0000000000000000 | C = 31fe17369b5288c9 | result = 31fe17369b5288c9 | PASS
+# time =     1850 | K = 0010000000000000 | P = 0000000000000000 | C = dfdd3cc64dae1642 | result = dfdd3cc64dae1642 | PASS
+# time =     1950 | K = 0008000000000000 | P = 0000000000000000 | C = 178c83ce2b399d94 | result = 178c83ce2b399d94 | PASS
+# time =     2050 | K = 0004000000000000 | P = 0000000000000000 | C = 50f636324a9b7f80 | result = 50f636324a9b7f80 | PASS
+# time =     2150 | K = 0002000000000000 | P = 0000000000000000 | C = a8468ee3bc18f06d | result = a8468ee3bc18f06d | PASS
+# time =     2250 | K = 0001000000000000 | P = 0000000000000000 | C = 8ca64de9c1b123a7 | result = 8ca64de9c1b123a7 | PASS
+# A time value could not be extracted from the current line
+
+

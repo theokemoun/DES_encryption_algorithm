@@ -1,0 +1,350 @@
+new_project -name project_2 -folder Z:/Verilog/W7 -createimpl_name project_2_impl_1
+# Info: [9577]: Input directory: Z:/Verilog/W7
+# Info: [9572]: Moving session transcript to file <...>/W7/precision.log
+# Info: [9558]: Created project project_2.psp in folder Z:/Verilog/W7.
+# Info: [9531]: Created directory: <...>/W7/project_2_impl_1.
+# Info: [9557]: Created implementation project_2_impl_1 in project project_2.psp.
+# Info: [9578]: The Results Directory has been set to: Z:/Verilog/W7/project_2_impl_1/
+# Info: [9569]: Logging project transcript to file <...>/project_2_impl_1/precision.log
+# Info: [9569]: Logging suppressed messages transcript to file <...>/project_2_impl_1/precision.log.suppressed
+# Info: [9552]: Activated implementation project_2_impl_1 in project project_2.psp.
+add_input_file {code/E.v code/f_function.v code/i_IP.v code/input_register.v code/IP.v code/key_schedule.v code/lab_7_top.v code/output_register.v code/P.v code/PC1.v code/PC2.v code/s1.v code/s2.v code/s3.v code/s4.v code/s5.v code/s6.v code/s7.v code/s8.v code/Top_level_Feistel_network.v}
+setup_design -manufacturer Xilinx -family ARTIX-7 -part 7A15TCSG324 -speed -1
+# Info: [15302]: Setting up the design to use synthesis library "xca7.syn"
+# Info: [585]: The global max fanout is currently set to 10000 for Xilinx - ARTIX-7.
+# Info: [15328]: Setting Part to: "7A15TCSG324".
+# Info: [15329]: Setting Process to: "1".
+# Info: [7513]: The default input to Vivado place and route has been set to "Verilog".
+# Info: [7512]: The place and route tool for current technology is Vivado.
+setup_design -vivado -max_fanout=10000
+# Info: [585]: The global max fanout is currently set to 10000 for Xilinx - ARTIX-7.
+# Info: [7512]: The place and route tool for current technology is Vivado.
+# Info: [7513]: The default input to Vivado place and route has been set to "Verilog".
+# Info: [20026]: MultiProc: Precision will use a maximum of 12 logical processors.
+compile
+# Info: [3052]: Decompressing file : <...>/techlibs/xca7.syn in <...>/project_2_impl_1/synlib.
+# Info: [3022]: Reading file: <...>/synlib/xca7.syn.
+# Info: [645]: Loading library initialization file <...>/userware/xilinx_rename.tcl
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2021a.12
+# Info: [42003]: Starting analysis of files in library "work"
+# Info: [41002]: Analyzing input file "Z:/Verilog/W7/code/E.v" ...
+# Info: [41002]: Analyzing input file "Z:/Verilog/W7/code/f_function.v" ...
+# Info: [41002]: Analyzing input file "Z:/Verilog/W7/code/i_IP.v" ...
+# Info: [41002]: Analyzing input file "Z:/Verilog/W7/code/input_register.v" ...
+# Info: [41002]: Analyzing input file "Z:/Verilog/W7/code/IP.v" ...
+# Info: [41002]: Analyzing input file "Z:/Verilog/W7/code/key_schedule.v" ...
+# Info: [41002]: Analyzing input file "Z:/Verilog/W7/code/lab_7_top.v" ...
+# Info: [41002]: Analyzing input file "Z:/Verilog/W7/code/output_register.v" ...
+# Info: [41002]: Analyzing input file "Z:/Verilog/W7/code/P.v" ...
+# Info: [41002]: Analyzing input file "Z:/Verilog/W7/code/PC1.v" ...
+# Info: [41002]: Analyzing input file "Z:/Verilog/W7/code/PC2.v" ...
+# Info: [41002]: Analyzing input file "Z:/Verilog/W7/code/s1.v" ...
+# Info: [41002]: Analyzing input file "Z:/Verilog/W7/code/s2.v" ...
+# Info: [41002]: Analyzing input file "Z:/Verilog/W7/code/s3.v" ...
+# Info: [41002]: Analyzing input file "Z:/Verilog/W7/code/s4.v" ...
+# Info: [41002]: Analyzing input file "Z:/Verilog/W7/code/s5.v" ...
+# Info: [41002]: Analyzing input file "Z:/Verilog/W7/code/s6.v" ...
+# Info: [41002]: Analyzing input file "Z:/Verilog/W7/code/s7.v" ...
+# Info: [41002]: Analyzing input file "Z:/Verilog/W7/code/s8.v" ...
+# Info: [41002]: Analyzing input file "Z:/Verilog/W7/code/Top_level_Feistel_network.v" ...
+# Info: [670]: Top module of the design is set to: lab_7_top.
+# Info: [668]: Current working directory: <...>/W7/project_2_impl_1.
+# Info: [40000]: RTLC-Driver, Release RTLC-Precision 2021a.12
+# Info: [40000]: Last compiled on Jul  2 2021 08:18:46
+# Info: [44512]: Initializing...
+# Info: [44504]: Partitioning design ....
+# Info: [40000]: RTLCompiler, Release RTLC-Precision 2021a.12
+# Info: [40000]: Last compiled on Jul  2 2021 08:22:39
+# Info: [44512]: Initializing...
+# Info: [44506]: Module input_register: Pre-processing...
+# Info: [44506]: Module PC1: Pre-processing...
+# Info: [44506]: Module PC2: Pre-processing...
+# Info: [44506]: Module key_schedule: Pre-processing...
+# Info: [44506]: Module IP: Pre-processing...
+# Info: [44506]: Module E: Pre-processing...
+# Info: [44506]: Module s1: Pre-processing...
+# Info: [44506]: Module s2: Pre-processing...
+# Info: [44506]: Module s3: Pre-processing...
+# Info: [44506]: Module s4: Pre-processing...
+# Info: [44506]: Module s5: Pre-processing...
+# Info: [44506]: Module s6: Pre-processing...
+# Info: [44506]: Module s7: Pre-processing...
+# Info: [44506]: Module s8: Pre-processing...
+# Info: [44506]: Module P: Pre-processing...
+# Info: [44506]: Module f_function: Pre-processing...
+# Info: [44506]: Module i_IP: Pre-processing...
+# Info: [44506]: Module feistel_network: Pre-processing...
+# Info: [44506]: Module output_register: Pre-processing...
+# Warning: [45729]: Input port key[7] has never been used.
+# Warning: [45729]: Input port key[15] has never been used.
+# Warning: [45729]: Input port key[23] has never been used.
+# Warning: [45729]: Input port key[31] has never been used.
+# Warning: [45729]: Input port key[39] has never been used.
+# Warning: [45729]: Input port key[47] has never been used.
+# Warning: [45729]: Input port key[55] has never been used.
+# Warning: [45729]: Input port key[63] has never been used.
+# Warning: [45729]: Input port data_in[8] has never been used.
+# Warning: [45729]: Input port data_in[17] has never been used.
+# Warning: [45729]: Input port data_in[21] has never been used.
+# Warning: [45729]: Input port data_in[24] has never been used.
+# Warning: [45729]: Input port data_in[34] has never been used.
+# Warning: [45729]: Input port data_in[37] has never been used.
+# Warning: [45729]: Input port data_in[42] has never been used.
+# Warning: [45729]: Input port data_in[53] has never been used.
+# Info: [44508]: Module input_register: Compiling...
+# Info: [44508]: Module PC1: Compiling...
+# Info: [44508]: Module PC2: Compiling...
+# Info: [44508]: Module key_schedule: Compiling...
+# Info: [44508]: Module IP: Compiling...
+# Info: [44508]: Module E: Compiling...
+# Info: [44508]: Module s1: Compiling...
+# Info: [44508]: Module s2: Compiling...
+# Info: [44508]: Module s3: Compiling...
+# Info: [44508]: Module s4: Compiling...
+# Info: [44508]: Module s5: Compiling...
+# Info: [44508]: Module s6: Compiling...
+# Info: [44508]: Module s7: Compiling...
+# Info: [44508]: Module s8: Compiling...
+# Info: [44508]: Module P: Compiling...
+# Info: [44508]: Module f_function: Compiling...
+# Info: [44508]: Module i_IP: Compiling...
+# Info: [44508]: Module feistel_network: Compiling...
+# Info: [44508]: Module output_register: Compiling...
+# Info: [44523]: Root Module lab_7_top: Compiling...
+# Info: [45252]: Inferred rom instance 'rtlcI9' of type 'rom_4_6_64_65'.
+# Info: [45252]: Inferred rom instance 'rtlcI10' of type 'rom_4_6_64_66'.
+# Info: [45252]: Inferred rom instance 'rtlcI11' of type 'rom_4_6_64_67'.
+# Info: [45252]: Inferred rom instance 'rtlcI12' of type 'rom_4_6_64_68'.
+# Info: [45252]: Inferred rom instance 'rtlcI13' of type 'rom_4_6_64_69'.
+# Info: [45252]: Inferred rom instance 'rtlcI14' of type 'rom_4_6_64_70'.
+# Info: [45252]: Inferred rom instance 'rtlcI15' of type 'rom_4_6_64_71'.
+# Info: [45252]: Inferred rom instance 'rtlcI16' of type 'rom_4_6_64_72'.
+# Info: [45193]: Net data_in[63:32] is unused after optimization
+# Info: [45307]: The driving logic for the net data_out[62] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[60] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[58] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[56] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[54] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[52] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[50] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[48] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[46] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[44] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[42] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[40] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[38] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[36] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[34] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[32] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[30] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[28] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[26] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[24] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[22] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[20] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[18] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[16] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[14] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[12] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[10] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[8] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[6] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[4] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[2] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[0] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[62] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[60] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[58] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[56] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[54] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[52] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[50] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[48] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[46] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[44] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[42] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[40] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[38] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[36] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[34] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[32] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[30] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[28] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[26] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[24] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[22] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[20] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[18] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[16] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[14] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[12] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[10] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[8] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[6] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[4] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[2] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net ciphertext[0] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45193]: Net ciphertext[62] is unused after optimization
+# Info: [45193]: Net ciphertext[60] is unused after optimization
+# Info: [45193]: Net ciphertext[58] is unused after optimization
+# Info: [45193]: Net ciphertext[56] is unused after optimization
+# Info: [45193]: Net ciphertext[54] is unused after optimization
+# Info: [45193]: Net ciphertext[52] is unused after optimization
+# Info: [45193]: Net ciphertext[50] is unused after optimization
+# Info: [45193]: Net ciphertext[48] is unused after optimization
+# Info: [45193]: Net ciphertext[46] is unused after optimization
+# Info: [45193]: Net ciphertext[44] is unused after optimization
+# Info: [45193]: Net ciphertext[42] is unused after optimization
+# Info: [45193]: Net ciphertext[40] is unused after optimization
+# Info: [45193]: Net ciphertext[38] is unused after optimization
+# Info: [45193]: Net ciphertext[36] is unused after optimization
+# Info: [45193]: Net ciphertext[34] is unused after optimization
+# Info: [45193]: Net ciphertext[32] is unused after optimization
+# Info: [45193]: Net ciphertext[30] is unused after optimization
+# Info: [45193]: Net ciphertext[28] is unused after optimization
+# Info: [45193]: Net ciphertext[26] is unused after optimization
+# Info: [45193]: Net ciphertext[24] is unused after optimization
+# Info: [45193]: Net ciphertext[22] is unused after optimization
+# Info: [45193]: Net ciphertext[20] is unused after optimization
+# Info: [45193]: Net ciphertext[18] is unused after optimization
+# Info: [45193]: Net ciphertext[16] is unused after optimization
+# Info: [45193]: Net ciphertext[14] is unused after optimization
+# Info: [45193]: Net ciphertext[12] is unused after optimization
+# Info: [45193]: Net ciphertext[10] is unused after optimization
+# Info: [45193]: Net ciphertext[8] is unused after optimization
+# Info: [45193]: Net ciphertext[6] is unused after optimization
+# Info: [45193]: Net ciphertext[4] is unused after optimization
+# Info: [45193]: Net ciphertext[2] is unused after optimization
+# Info: [45193]: Net ciphertext[0] is unused after optimization
+# Info: [45307]: The driving logic for the net data_out[62] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[60] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[58] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[56] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[54] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[52] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[50] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[48] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[46] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[44] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[42] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[40] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[38] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[36] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[34] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[32] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[30] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[28] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[26] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[24] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[22] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[20] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[18] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[16] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[14] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[12] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[10] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[8] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[6] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[4] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[2] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45307]: The driving logic for the net data_out[0] has been moved across hierarchy due to cross-hierarchy optimization
+# Info: [45252]: Inferred rom instance 'rtlcI17' of type 'rom_4_6_64_73'.
+# Info: [45252]: Inferred rom instance 'rtlcI18' of type 'rom_4_6_64_74'.
+# Info: [45252]: Inferred rom instance 'rtlcI19' of type 'rom_4_6_64_75'.
+# Info: [45252]: Inferred rom instance 'rtlcI20' of type 'rom_4_6_64_76'.
+# Info: [45252]: Inferred rom instance 'rtlcI21' of type 'rom_4_6_64_77'.
+# Info: [45252]: Inferred rom instance 'rtlcI22' of type 'rom_4_6_64_78'.
+# Info: [45252]: Inferred rom instance 'rtlcI23' of type 'rom_4_6_64_79'.
+# Info: [45252]: Inferred rom instance 'rtlcI24' of type 'rom_4_6_64_80'.
+# Info: [44842]: Compilation successfully completed.
+# Info: [44856]: Total lines of RTL compiled: 1258.
+# Info: [44835]: Total CPU time for compilation: 2.1 secs.
+# Info: [44513]: Overall running time for compilation: 3.0 secs.
+# Info: [668]: Current working directory: <...>/W7/project_2_impl_1.
+# Info: [15334]: Doing rtl optimizations.
+# Info: [671]: Finished compiling design.
+synthesize
+# Info: [668]: Current working directory: <...>/W7/project_2_impl_1.
+# Info: [4557]: 9 Instances are flattened in hierarchical block .work.f_function.INTERFACE_unfold_1.
+# Info: [4557]: 9 Instances are flattened in hierarchical block .work.f_function.INTERFACE_unfold_2.
+# Info: [4557]: 9 Instances are flattened in hierarchical block .work.f_function.INTERFACE_unfold_3.
+# Info: [4557]: 9 Instances are flattened in hierarchical block .work.f_function.INTERFACE_unfold_4.
+# Info: [4557]: 9 Instances are flattened in hierarchical block .work.f_function.INTERFACE_unfold_5.
+# Info: [4557]: 9 Instances are flattened in hierarchical block .work.f_function.INTERFACE_unfold_6.
+# Info: [4557]: 9 Instances are flattened in hierarchical block .work.f_function.INTERFACE_unfold_7.
+# Info: [4557]: 9 Instances are flattened in hierarchical block .work.f_function.INTERFACE_unfold_8.
+# Info: [4557]: 9 Instances are flattened in hierarchical block .work.f_function.INTERFACE_unfold_9.
+# Info: [4557]: 9 Instances are flattened in hierarchical block .work.f_function.INTERFACE_unfold_10.
+# Info: [4557]: 9 Instances are flattened in hierarchical block .work.f_function.INTERFACE_unfold_11.
+# Info: [4557]: 9 Instances are flattened in hierarchical block .work.f_function.INTERFACE_unfold_12.
+# Info: [4557]: 9 Instances are flattened in hierarchical block .work.f_function.INTERFACE_unfold_13.
+# Info: [4557]: 9 Instances are flattened in hierarchical block .work.f_function.INTERFACE_unfold_14.
+# Info: [4557]: 9 Instances are flattened in hierarchical block .work.f_function.INTERFACE.
+# Info: [4557]: 1 Instances are flattened in hierarchical block .work.f_function_unfolded0.INTERFACE.
+# Info: [4557]: 16 Instances are flattened in hierarchical block .work.feistel_network_unfolded0.INTERFACE_unfold_2371.
+# Info: [4557]: 1 Instances are flattened in hierarchical block .work.lab_7_top.INTERFACE.
+# Info: [20013]: Precision will use 12 processor(s).
+# Info: [15002]: Optimizing design view:.work.input_register.INTERFACE_unfold_1831
+# Info: [15002]: Optimizing design view:.work.input_register.INTERFACE
+# Info: [15002]: Optimizing design view:.work.lab_7_top.INTERFACE
+# Info: [15002]: Optimizing design view:.work.feistel_network_unfolded0.INTERFACE_unfold_2371
+# Info: [4557]: 3 Instances are flattened in hierarchical block .work.lab_7_top.INTERFACE.
+# Info: [15002]: Optimizing design <...>.lab_7_top.INTERFACE
+# Info: [8010]: Gated clock transformations: Begin...
+# Info: [8010]: Gated clock transformations: End...
+# Info: [8053]: Added global buffer BUFGP for Port port:clk
+# Info: [3027]: Writing file: <...>/project_2_impl_1/lab_7_top.edf.
+# Info: [3027]: Writing file: <...>/project_2_impl_1/lab_7_top.xdc.
+# Info: -- Writing file Z:/Verilog/W7/project_2_impl_1/lab_7_top.tcl
+# Info: [3027]: Writing file: <...>/project_2_impl_1/lab_7_top.v.
+# Info: -- Writing file Z:/Verilog/W7/project_2_impl_1/lab_7_top.tcl
+# Info: [671]: Finished synthesizing design.
+# Info: [11019]: Total CPU time for synthesis: 15 m 57.5 s secs.
+# Info: [11020]: Overall running time for synthesis: 15 m 58.3 s secs.
+physically_aware_synthesize
+# Info: [12022]: Design has no timing constraint and no timing information.
+# Info: [7022]: The design has no user timing constraints. Auto constrainer will be activated by default.
+# Info: [668]: Current working directory: <...>/W7/project_2_impl_1.
+# Info: [7004]: Starting retiming program ...
+# Info: [1548]: Physical wire delay calculation is used in this process ..
+# Info: [7012]: Phase 1
+# Info: [7010]: .
+# Info: [7012]: Phase 2
+# Info: [7012]: Total number of DSPs processed       : 0
+# Info: [7012]: Total number of registers added      : 64
+# Info: [7012]: Total number of registers removed    : 120
+# Info: [7012]: Total number of logic elements added : 0
+# Info: [7005]: Ending retiming program ...
+# Info: [7022]: Start Advanced Delay Estimation ....
+# Info: [7041]: Physical Synthesis allows 0 placed I/O pins.
+# Info: [7022]: End Advanced Delay Estimation
+# Info: [7022]: The timing constraint is automatically processed.
+# Info: [7004]: Starting retiming program ...
+# Info: [7010]: User constraints were met before retiming. Using tighter constraints may achieve better results
+# Info: [7005]: Ending retiming program ...
+# Info: [7015]: Starting resynthesis program ...
+# Info: [7015]:  
+# Info: [7012]: Phase 1
+# Info: [7012]:    Logic optimizations completed:  0
+# Info: [7012]:    Logic optimizations completed:  0
+# Info: [7012]:    Logic optimizations completed:  0
+# Info: [7012]:    Logic optimizations completed:  0
+# Info: [7012]: Total logic optimizations completed:  0
+# Info: [7015]:  
+# Info: [7015]: Ending resynthesis program ...
+# Info: [7015]:  
+# Info: [12045]: Starting timing reports generation...
+# Info: [12046]: Timing reports generation done.
+# Info: [12048]: POST-SYNTHESIS TIMING REPORTS ARE ESTIMATES AND SHOULD NOT BE RELIED ON TO MAKE QoR DECISIONS. For accurate timing information, please run place-and-route (P&R) and review P&R generated timing reports.
+# Info: [668]: Current working directory: <...>/W7/project_2_impl_1.
+# Info: [3027]: Writing file: <...>/project_2_impl_1/lab_7_top.pdb.
+# Info: [3027]: Writing file: <...>/project_2_impl_1/lab_7_top.fdb.
+# Info: [3027]: Writing file: <...>/project_2_impl_1/lab_7_top.edf.
+# Info: [3027]: Writing file: <...>/project_2_impl_1/lab_7_top.v.
+# Info: -- Writing file Z:/Verilog/W7/project_2_impl_1/lab_7_top.tcl
+# Info: [3027]: Writing file: <...>/project_2_impl_1/lab_7_top.xdc.
+# Info: [668]: Current working directory: <...>/W7/project_2_impl_1.
+# Info: [7043]: Physical Synthesis uses I/O pin locations for optimization. Any variation in constraints used between Precision and P&R might lead to sub-optimal results.
+# Info: [7022]: Finished Physical Synthesis.
+# Info: [7046]: Total CPU time for Physical Synthesis: 0.0 secs.
+# Info: [7047]: Overall running time for Physical Synthesis: 57.0 secs.

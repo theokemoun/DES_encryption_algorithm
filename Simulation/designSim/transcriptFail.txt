@@ -1,0 +1,13 @@
+# time =        0 | K = xxxxxxxxxxxxxxxx | P = xxxxxxxxxxxxxxxx | C = xxxxxxxxxxxxxxxx | result = xxxxxxxxxxxxxxxx |  RST
+# time =       50 | K = 0000000000000000 | P = 0000000000000000 | C = 0000000000000000 | result = 0000000000000000 |  RST
+# time =      140 | K = 0000000000000000 | P = 0000000000000000 | C = 0000000000000000 | result = 0000000000000000 | WAIT
+# time =      150 | K = 0000000000000000 | P = 0000000000000000 | C = 0000000000000000 | result = 36a1762c1e303e5c | WAIT
+# time =      550 | K = 8000000000000000 | P = 0000000000000000 | C = 95a8d72813daa94d | result = 36a1762c1e303e5c | FAIL
+# time =      650 | K = 4000000000000000 | P = 0000000000000000 | C = 0eec1487dd8c26d5 | result = 19b4c3b3500cba6a | FAIL
+# time =      750 | K = 2000000000000000 | P = 0000000000000000 | C = 7ad16ffb79c45926 | result = 82b8cee089eabbf7 | FAIL
+# time =      850 | K = 1000000000000000 | P = 0000000000000000 | C = d3746294ca6a6cf3 | result = 36a1762c1e303e5c | FAIL
+# time =      950 | K = 1000000000000000 | P = 0000000000000000 | C = d3746294ca6a6cf3 | result = 36a1762c1e303e5c | WAIT
+# time =     1050 | K = 0800000000000000 | P = 0000000000000000 | C = 809f5f873c1fd761 | result = d6bd51b4ff6d4adb | FAIL
+# time =     1150 | K = 0800000000000000 | P = 0000000000000000 | C = 809f5f873c1fd761 | result = d6bd51b4ff6d4adb | WAIT
+
+
